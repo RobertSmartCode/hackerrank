@@ -10,14 +10,14 @@ c=b.reverse()
 
 var max = 0;
 var cur = 0;
-for(var i=0; i<c.length; i++ ){
-    if(c[i]==1){
+for(var i=0; i<c.length; i++ ){ 
+    if(c[i]==1)
         cur++;
-    }else if(c[i]==0){
-        if(cur>max){
+    else if(c[i]==0){
+        if(cur>max)
             max=cur
             cur=0
-        }
+        
     }
 }
 if(cur>max){
