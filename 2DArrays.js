@@ -8,7 +8,7 @@ var arr= [
 ]
 
 
-function relojArena(arr){
+function relojArenaSuma(arr){
     let maxSum=-63
     for(var i=0; i<4; i++){
     
