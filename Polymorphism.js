@@ -26,3 +26,4 @@ const a2= new Dog('Robert')
 
 a1.makeSound()
 a2.makeSound()
+
