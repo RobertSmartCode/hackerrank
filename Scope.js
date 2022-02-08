@@ -1,4 +1,4 @@
-const inputLines= [ '3', '1 2 5' ]
+const inputLines= [ '4', '1 2 5 9' ]
 const length=+inputLines[0]
 const array= inputLines[1].split(' ')
 
@@ -14,7 +14,6 @@ for(var i=0; i<length; i++){
     }
     
 }
-
 console.log(max);
 
 
